@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Your custom styles -->
+    <style>
+        /* Add any custom styles here */
+    </style>
+</head>
+<body class="bg-gray-300">
+    <nav class="fixed top-0 left-0 w-full bg-white h-16 shadow-md z-50 border border-gray-200 shadow-dark-mild dark:bg-neutral-700 lg:py-2">
+        <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-full">
+            <div>
+              <a class="flex items-center lg:mb-0 lg:mt-0 mt-4 px-4" href="#">
+                <img
+                  src="../images/logo.png"
+                  style="height: 80px"
+                  alt="TE Logo"
+                  loading="lazy" />
+              </a>
+            </div>
+            <div class="flex items-center space-x-14">
+                <ul class="flex space-x-14">
+                    <li class="my-4 ps-2"><a href="./index.html" class="text-lg font-serif font-medium">Home</a></li>
+                    <li class="my-4 ps-2"><a href="./product.html" class="text-lg font-serif font-medium">Product</a></li>
+                    <li class="my-4 ps-2"><a href="./review.html" class="text-lg font-serif font-medium">Reviews</a></li>
+                    <li class="my-4 ps-2"><a href="./contact.html" class="text-lg font-serif font-medium">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="flex items-center text-right space-x-2">
+                <input type="text" placeholder="Search here..." class="border-1 rounded-md h-8 border border-gray-500 ">
+                <button class="bg-red-500 hover:bg-red-200 text-white font-bold py-1 px-3 rounded-md">Sign in</button>
+            </div>
+          </div>
+    </nav>
+<!--------------------------------------------------------- Main Section ---------------------------------------------------------------->
+    <main class="bg-white">
+        <div class="max-w-7xl mx-auto px-4 py-10 mt-16">
+            <h1 class="text-center text-red-500 font-sans font-semibold text-4xl mb-10">What our Clients Say about us</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+                <!---------------------------------- card 1 ----------------------------------------->
+                <div class="bg-white rounded-md p-4 border border-2">
+                   <div class="relative">
+                    <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #e1e1df;"></i>
+                   </div>
+                   <p class="font-normal font-sans mt-2">I absolutely love my new smartwatch! It tracks my workouts, monitors my sleep, and keeps me connected without needing to pull out my phone constantly. The battery life is surprisingly good too, lasting a full two days even with heavy use.</p>
+                   <h1 class="font-mono font-semibold text-end mt-2">-Ruchi Bajracharya</h1>
+                </div>
+                <!---------------------------------- card 2 ----------------------------------------->
+                <div class="bg-white rounded-md p-4v border border-2">
+                    <div class="relative">
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                       </div>
+                       <p class="font-normal font-sans mt-2">Best purchase I've made in a while! The smartwatch seamlessly syncs with my smartphone, allowing me to read messages and control music on the go. The display is crystal clear, even in bright sunlight.</p>
+                       <h1 class="font-mono font-semibold text-end mt-2">-Prerana Shrestha</h1>
+    
+                </div>
+    
+                <!---------------------------------- card 3 ----------------------------------------->
+                <div class="bg-white rounded-md p-4 border border-2">
+                    <div class="relative">
+    
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        
+                    </div>
+                    <p class="font-normal font-sans mt-2">This watch is fantastic! I’ve tried several smartwatches before, but GizmoHub stands out with its user-friendly interface and accurate tracking. It’s great for both fitness enthusiasts and those who need a convenient way to stay on top of notifications. Plus, it looks great!</p>
+                    <h1 class="font-mono font-semibold text-end mt-2">-Anmol Shrestha</h1>
+                </div>
+    
+                <!---------------------------------- card 4 ----------------------------------------->
+                <div class="bg-white rounded-md p-4 border border-2">
+                    <div class="relative">
+    
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        
+                    </div>
+                    <p class="font-normal font-sans mt-2">I couldn't be happier with my GizmoHub watch. The battery life is superb, and it charges quickly. The fitness tracking is detailed, providing insights that help me stay motivated. </p>
+                    <h1 class="font-mono font-semibold text-end mt-2">-Khusbu Jaiswal</h1>
+                </div>
+    
+                <!---------------------------------- card 5 ----------------------------------------->
+                <div class="bg-white rounded-md p-4 border border-2">
+                    <div class="relative">
+    
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #e1e1df;"></i>
+                        
+                    </div>
+                    <p class="font-normal font-sans mt-2">Great battery life and seamless connectivity. Love this watch! </p>
+                    <h1 class="font-mono font-semibold text-end mt-2">-Khusbu Jaiswal</h1>
+                </div>
+    
+                <!---------------------------------- card 6 ----------------------------------------->
+                <div class="hidden sm:block bg-white rounded-md p-4 border border-2">
+                    <div class="relative">
+    
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star fa-lg" style="color: #FFD43B;"></i>
+                        
+                    </div>
+                    <p class="font-normal font-sans mt-2">GizmoHub Watch is a game-changer for parents! Accurate GPS and waterproof too</p>
+                    <h1 class="font-mono font-semibold text-end mt-2">-Sameer Gurung</h1>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-10">
+                <button class="text-black font-bold py-2 px-4 rounded-md bg-white">Read More...</button>
+            </div>
+            
+            <h2 class="text-center mt-10">Reena</h2>
+        </div>
+    </main>
+</body>
+</html>

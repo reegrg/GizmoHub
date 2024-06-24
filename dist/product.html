@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Watch</title>
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900">
+    <nav class="relative flex w-full flex-wrap items-center justify-between bg-white h-16 py-0 mt-0 border border-gray-200 shadow dark:bg-neutral-700 lg:py-2">
+        <div class="flex w-full items-center justify-between h-full px-4">
+            <a class="flex items-center" href="#">
+                <img src="../images/logo.png" class="h-12 lg:h-20" alt="TE Logo" loading="lazy" />
+            </a>
+            <div class="hidden lg:flex items-center justify-between h-full">
+                <ul class="flex space-x-4 lg:space-x-14">
+                    <li class="my-4"><a href="./index.html" class="text-lg font-serif font-medium">Home</a></li>
+                    <li class="my-4"><a href="./product.html" class="text-lg font-serif font-medium">Product</a></li>
+                    <li class="my-4"><a href="./review.html" class="text-lg font-serif font-medium">Reviews</a></li>
+                    <li class="my-4"><a href="./contact.html" class="text-lg font-serif font-medium">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center text-right space-x-2">
+                <input type="text" placeholder="Search here..." class="border-1 rounded-md h-8 border border-gray-500 px-2">
+                <button class="bg-red-500 hover:bg-red-200 text-white font-bold py-1 px-3 rounded-md">Sign in</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex flex-col items-center py-8">
+        <div class="text-center mb-8 max-w-4xl">
+            <h1 class="text-3xl mt-4 mb-6 font-bold text-white">Product Features</h1>
+        </div>
+    
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full px-4 lg:px-20">
+            <div class="flex items-center justify-center h-80 lg:justify-start">
+                <img src="../images/banner.png" alt="Banner Image" class="h-full object-cover ml-40 lg:ml-40">
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 lg:p-8">
+                <div class="bg-white border-2 border-red-500 h-36 p-4 flex flex-col justify-center">
+                    <h1 class="text-center font-semibold font-serif mb-2 text-lg lg:text-2xl text-red-500">High Quality</h1>
+                    <p class="font-serif text-xs lg:text-sm">Our smartwatch is crafted with premium materials and cutting-edge technology, ensuring durability and reliability in every aspect.</p>
+                </div>
+                <div class="bg-white border-2 border-red-500 h-36 p-4 flex flex-col justify-center">
+                    <h1 class="text-center font-semibold font-serif mb-2 text-lg lg:text-2xl text-red-500">Long Battery Life</h1>
+                    <p class="font-serif text-xs lg:text-sm">Enjoy extended usage between charges, ideal for all-day wear and tracking.</p>
+                </div>
+                <div class="bg-white border-2 border-red-500 h-36 p-4 flex flex-col justify-center">
+                    <h1 class="text-center font-semibold font-serif mb-2 text-lg lg:text-2xl text-red-500">Connectivity</h1>
+                    <p class="font-serif text-xs lg:text-sm">Easily connect to your smartphone to control music playback, take photos remotely, and more.</p>
+                </div>
+                <div class="bg-white border-2 border-red-500 h-36 p-4 flex flex-col justify-center">
+                    <h1 class="text-center font-semibold font-serif mb-2 text-lg lg:text-2xl text-red-500">Water Resistance</h1>
+                    <p class="font-serif text-xs lg:text-sm">Wear your smartwatch in the rain, while swimming, or during workouts without worry.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

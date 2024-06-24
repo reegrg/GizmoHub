@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-300">
+    <nav class="relative flex w-full flex-wrap items-center justify-between bg-white h-16  py-0 mt-0 border border-gray-200 shadow-dark-mild dark:bg-neutral-700 lg:py-2">
+        <div class="flex w-full items-center justify-between h-full">
+            <div>
+              <a class="flex items-center lg:mb-0 lg:mt-0 mt-4 px-4" href="#">
+                <img
+                  src="../images/logo.png"
+                  style="height: 80px"
+                  alt="TE Logo"
+                  loading="lazy" />
+              </a>
+            </div>
+            <div class="flex items-center justify-between h-full ">
+                <ul class="flex space-x-14">
+                    <li class="my-4 ps-2"><a href="./index.html" class="text-lg font-serif font-medium">Home</a></li>
+                    <li class="my-4 ps-2"><a href="./product.html" class="text-lg font-serif font-medium">Product</a></li>
+                    <li class="my-4 ps-2"><a href="./review.html" class="text-lg font-serif font-medium">Reviews</a></li>
+                    <li class="my-4 ps-2"><a href="./contact.html" class="text-lg font-serif font-medium">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="flex items-center text-right mr-4 space-x-2">
+                <input type="text" placeholder="Search here..." class="border-1 rounded-md h-8 border border-gray-500 ">
+                <button class="bg-red-500 hover:bg-red-200 text-white font-bold py-1 px-3 rounded-md">Sign in</button>
+            </div>
+          </div>
+    </nav>
+    <main>
+        
+        <div class="mt-6 flex justify-center">
+            <form class=" bg-white shadow-md border rounded px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                Name
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Full Name">
+              </div>
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                Email
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email">
+              </div>
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="messageType">
+                  MessageType
+                </label>
+                <input class="shadow appearance-none border  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="messageType" type="text" placeholder="Select your message type">
+              </div>
+              <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="messageType">
+                    Message
+                  </label>
+                <textarea name="message" id="message" rows="3" cols="3" class="w-64 rounded border border-solid"></textarea>
+              </div>
+              <div class="flex items-center justify-between">
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-14 rounded focus:outline-none focus:shadow-outline" type="button" style="white-space: nowrap;">
+                  Send Your Queries
+                </button>
+              </div>
+              
+            </form>
+            
+          </div>
+    </main>
+</body>
+</html>

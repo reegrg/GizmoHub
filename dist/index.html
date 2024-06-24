@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="relative flex w-full flex-wrap items-center justify-between bg-white h-16 py-0 mt-0 border border-gray-200 shadow dark:bg-neutral-700 lg:py-2">
+        <div class="flex w-full items-center justify-between h-full px-4">
+            <a class="flex items-center" href="#">
+                <img src="../images/logo.png" class="h-12 lg:h-20" alt="TE Logo" loading="lazy" />
+            </a>
+            <div class="menu-button lg:hidden">
+                <button id="menu-toggle" class="text-2xl focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="hidden lg:flex items-center justify-between h-full" id="menu">
+                <ul class="flex space-x-8 lg:space-x-14">
+                    <li class="my-4"><a href="./index.html" class="text-lg font-serif font-medium">Home</a></li>
+                    <li class="my-4"><a href="./product.html" class="text-lg font-serif font-medium">Product</a></li>
+                    <li class="my-4"><a href="./review.html" class="text-lg font-serif font-medium">Reviews</a></li>
+                    <li class="my-4"><a href="./contact.html" class="text-lg font-serif font-medium">Contact</a></li>
+                </ul>
+                <div class="flex items-center text-right ml-4 space-x-2">
+                    <input type="text" placeholder="Search here..." class="border-1 rounded-md h-8 border border-gray-500 px-2">
+                    <button class="bg-red-500 hover:bg-red-200 text-white font-bold py-1 px-3 rounded-md">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-200 shadow-lg">
+        <ul class="flex flex-col space-y-4 p-4">
+            <li><a href="./index.html" class="text-lg font-serif font-medium">Home</a></li>
+            <li><a href="./product.html" class="text-lg font-serif font-medium">Product</a></li>
+            <li><a href="./review.html" class="text-lg font-serif font-medium">Reviews</a></li>
+            <li><a href="./contact.html" class="text-lg font-serif font-medium">Contact</a></li>
+            <div class="flex items-center text-right mt-4 space-x-2">
+                <input type="text" placeholder="Search here..." class="border-1 rounded-md h-8 border border-gray-500 px-2">
+                <button class="bg-red-500 hover:bg-red-200 text-white font-bold py-1 px-3 rounded-md">Sign in</button>
+            </div>
+        </ul>
+    </div>
+    <main>
+        <div class="mt-0 h-full w-full bg-gradient-to-r from-black via-gray-800 to-transparent py-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto">
+                <div class="px-6 lg:px-20">
+                    <h1 class="text-3xl lg:text-5xl font-bold mt-10 font-sans text-white">Track your progress, reach your goals.</h1>
+                    <p class="text-white mt-8 text-sm lg:text-base font-sans">Stay connected, stay ahead. Our smartwatch is designed to keep you moving, with features like heart rate monitoring, GPS tracking, and notifications at a glance. Whether you're crushing a workout or crushing it at work, our smartwatch is the perfect accessory for the modern you.</p>
+                    <button class="mt-5 bg-red-500 hover:bg-red-200 text-white font-bold py-2 px-3 rounded-md">Get Started</button>
+                </div>
+                <div class="flex justify-center mr-20 lg:justify-start">
+                    <img src="../images/banner.png" alt="Banner Image" class="h-80 ">
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-20 py-10">
+            <h2 class="text-xl lg:text-3xl font-serif mb-6">Top Categories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+                <div class="relative flex flex-col text-gray-700 shadow-md bg-white border rounded-md p-4">
+                    <div class="flex justify-center items-center bg-white rounded-xl h-40 overflow-hidden shadow-lg">
+                        <img src="../images/watch0.png" alt="Smart Watch 1.96inch Full Touch Screen" class="h-40" />
+                    </div>
+                    <div class="text-center mt-4">
+                        <h4 class="font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">Smart Watch 1.96inch Full Touch Screen</h4>
+                        <p class="font-sans font-bold text-red-500 text-2xl mt-2">$35.80</p>
+                    </div>
+                </div>
+                <div class="relative flex flex-col text-gray-700 shadow-md bg-white border rounded-md p-4">
+                    <div class="flex justify-center items-center bg-white rounded-xl h-40 overflow-hidden shadow-lg">
+                        <img src="../images/watch1.png" alt="Imiki ST2 1.96&quot; BT Calling Smart Watch" class="h-40" />
+                    </div>
+                    <div class="text-center mt-4">
+                        <h4 class="font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">Imiki ST2 1.96" BT Calling Smart Watch</h4>
+                        <p class="font-sans font-bold text-red-500 text-2xl mt-2">$36.10</p>
+                    </div>
+                </div>
+                <div class="relative flex flex-col text-gray-700 shadow-md bg-white border rounded-md p-4">
+                    <div class="flex justify-center items-center bg-white rounded-xl h-40 overflow-hidden shadow-lg">
+                        <img src="../images/watch2.png" alt="Verision GizmoWatch2 smartwatch" class="h-40" />
+                    </div>
+                    <div class="text-center mt-4">
+                        <h4 class="font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">Verision GizmoWatch2 smartwatch</h4>
+                        <p class="font-sans font-bold text-red-500 text-2xl mt-2">$35.80</p>
+                    </div>
+                </div>
+                <div class="relative flex flex-col text-gray-700 shadow-md bg-white border rounded-md p-4">
+                    <div class="flex justify-center items-center bg-white rounded-xl h-40 overflow-hidden shadow-lg">
+                        <img src="../images/watch3.png" alt="Mibro Watch Lite - Smartwatch for Less" class="h-40" />
+                    </div>
+                    <div class="text-center mt-4">
+                        <h4 class="font-sans antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">Mibro Watch Lite - Smartwatch for Less</h4>
+                        <p class="font-sans font-bold text-red-500 text-2xl mt-2">$35.80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black py-6 flex flex-col items-center">
+        <p class="text-white font-sans mb-2">Show us some love by following us on</p>
+        <div class="flex space-x-4 mb-6">
+            <i class="fab fa-instagram fa-xl text-gray-200"></i>
+            <i class="fab fa-facebook fa-xl text-white"></i>
+            <i class="fab fa-twitter fa-xl text-gray-200"></i>
+        </div>
+        <p class="text-white font-serif font-semibold uppercase">Copyright&copy; 2024 GizmoHub || Created by Reena</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
